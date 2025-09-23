@@ -1,0 +1,140 @@
+p {
+	color: rgb(255, 236, 114);
+	text-align: center;
+	text-align: justify;
+}
+h1 {
+	color: #17710b;
+}
+h2 {
+	color: blue;
+}
+h3 {
+	color: red;
+}
+a {
+	color: orange;
+}
+a{
+	color:darkslategrey
+}
+body {
+	background-color: gray;
+}
+
+td {
+	width: 400px;
+	height: 300px;
+}
+
+th {
+	text-align: left;
+}
+h1, h2, h3 {
+	text-align: center;
+	color: red;
+}
+
+h3 {
+	font-size: 16px;
+}
+.odd {
+	color: red;
+}
+.eee {
+	color: red;
+}
+.xxx {
+	font-size: 30px;
+}
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.blue {
+	color: blue;
+}
+.header {
+	color: red;
+}
+
+h2.header {
+	font-size: 40px;
+}
+
+h3.header {
+	font-size: 30px;
+}
+.success {
+	color: green;
+}
+
+.error {
+	color: red;
+}
+
+.large {
+	font-size: 30px;
+}
+
+.small {
+	font-size: 20px;
+}
+
+.fancy-text {
+	font-family: 'Courier New', monospace;
+	font-weight: bold;
+	color: #2c3e50;
+}
+
+.highlight {
+	background-color: #fffacd; 
+	padding: 8px;
+}
+
+.rounded {
+	border: 2px solid #3498db;
+	border-radius: 12px;
+}
+
+#elem1 {
+	color: white;
+	background-color: purple;
+	padding: 10px;
+	margin: 10px 0;
+}
+
+#elem2 {
+	color: white;
+	background-color: green;
+	padding: 10px;
+	margin: 10px 0;
+}
+
+#elem3 {
+	color: white;
+	background-color: blue;
+	padding: 10px;
+	margin: 10px 0;
+}
+.elem + li {
+	color: red;
+	font-weight: bold;
+}
+main > * > p;
+
+a:link,
+a:visited,
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}

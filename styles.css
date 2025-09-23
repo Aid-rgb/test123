@@ -1,0 +1,49 @@
+p {
+	color: rgb(255, 236, 114);
+	text-align: justify;
+	width: 400px;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: "Comic Sans MS";
+	line-height: 1.5;
+	font: bold italic 16px/60px/1.5 Arial;
+
+}
+h1 {
+	color: #17710b;
+	text-align: center;
+	font-weight: normal;
+	font-size: 50px;
+}
+h2 {
+	color: rgb(0, 89, 255);
+	text-align: center;
+	width: 300px;
+	font-style: italic;
+	font-size: 40px;
+	font-weight: normal;
+}
+h3 {
+	color: red;
+}
+a {
+	color: orange;
+}
+a{
+	color:darkslategrey
+}
+body{
+	background-color: rgb(0, 179,255);
+}
+
+td {
+	width: 500px;
+	height: 300px;
+	text-align: center;
+	font-weight: bold;
+}
+
+th {
+	text-align: left;
+	font-weight: normal;
+}
