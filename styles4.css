@@ -1,0 +1,564 @@
+#elem1 {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+	background-color: #ff8888b5;
+}
+#elem2 {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+	background-color: #001aff;
+}
+#elem3 {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+	background-color: #314b3d;
+}
+#elem4 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	border: 1px solid green;
+}
+
+#content {
+	margin: 0 auto;
+	width: 300px;
+	text-align: justify;
+	font: 16px Arial;
+}
+div {
+	border: 1px solid rgb(7, 1, 1);
+	text-align: justify;
+}
+p {
+	border: 1px solid rgb(92, 130, 92);
+}
+frog {
+	float: left;
+	opacity: 0.5;
+}
+.parent1 {
+	display: flex;
+	align-items: center;
+	width: 300px;
+	height: 200px;
+	border: 1px solid rgb(150, 154, 72);
+}
+.child1 {
+	width: 50px;
+	height: 50px;
+	border: 1px solid rgb(247, 127, 231);
+}
+.elem1 {
+	align-self: flex-start;
+}
+#parent {
+	position: relative;
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+	border: 1px solid rgb(63, 21, 228);
+}
+#child {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	
+	width: 200px;
+	height: 200px;
+	border: 1px solid green;
+}
+#elem12 {
+	width: 200px;
+	height: 150px;
+	border: 1px solid rgb(73, 1, 1);
+}
+#elem22 {
+	position: absolute;
+	top: 100px; 
+	
+	width: 100px;
+	height: 100px;
+	margin-left: 10px;
+	border: 1px solid rgb(56, 58, 56);
+}
+#elem33 {
+	width: 50px;
+	height: 150px;
+	border: 1px solid rgb(1, 1, 56);
+}
+#elem44 {
+	position: fixed; 
+	top: 30px;
+	right: 30px;
+	width: 100px;
+	height: 100px;
+	border: 1px solid rgb(3, 253, 3);
+}
+
+#content1 {
+	margin: 0 auto;
+	width: 300px;
+	text-align: justify;
+	font: 16px Arial;
+}
+#elem111 {
+	position: absolute;
+	top: 120px;
+	left: 120px;
+	
+	width: 100px;
+	height: 100px;
+	background: #ff8888;
+}
+
+#elem222 {
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	
+	width: 100px;
+	height: 100px;
+	background: #7e89eb;
+}
+
+.parent45 {
+	display: flex;
+	flex-direction: row-reverse;
+	width: 300px;
+	height: 200px;
+	border: 1px solid red;
+}
+.child45 {
+	width: 50px;
+	height: 50px;
+	border: 1px solid rgb(17, 255, 0);
+}
+
+.parent46 {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	height: 200px;
+	border: 1px solid rgb(136, 0, 255);
+}
+.child46 {
+	width: 50px;
+	height: 50px;
+	border: 1px solid rgb(255, 6, 6);
+}
+
+.parent47 {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	height: 200px;
+	border: 1px solid rgb(136, 0, 255);
+}
+.child47 {
+	width: 150px;
+	height: 50px;
+	border: 1px solid rgb(255, 6, 6);
+}
+
+.parent22 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  height: 350px;
+  border: 1px solid red;
+}
+.child22 {
+  width: 50px;
+  height: 90px;
+  border: 1px solid green;
+}
+.parent31 {
+  display: flex;
+  flex-direction: row; 
+  justify-content: flex-end; 
+  height: 200px;
+}
+.child31 {
+  width: 90px;
+  height: 50px;
+  border: 1px solid green;
+}
+.parent40 {
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-end; 
+  height: 350px;
+}
+.child40 {
+  width: 50px;
+  height: 90px;
+  border: 1px solid green;
+}
+.parent57 {
+  display: flex;
+  flex-direction: row-reverse; 
+  justify-content: flex-start; 
+  height: 200px;
+}
+.child57 {
+  width: 90px;
+  height: 50px;
+  border: 1px solid green;
+}
+.parent62 {
+  display: flex;
+  flex-direction: row-reverse; 
+  justify-content: flex-end; 
+  height: 200px;
+}
+.child62 {
+  width: 90px;
+  height: 50px;
+  border: 1px solid green;
+}
+
+#parent666 {
+	display: grid;
+}
+#parent664 {
+	display: grid;
+	grid-template-columns: 200px 400px;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+#parent664 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent665 {
+	display: grid;
+	grid-template-columns: 50px 100px 200px 250px;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+#parent665 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent55 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+#parent55 > div {
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #696989;
+}
+#parent33 {
+	display: grid;
+	grid-template-columns: 1fr 1.5fr 2.5fr;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+
+#parent33 > div {
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #696989;
+}
+#parent11 {
+	display: grid;
+	grid-template-columns: 100px 1fr 1fr;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+
+#parent11 > div {
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #696989;
+}
+#parent12 {
+	display: grid;
+	grid-template-columns: 100px 1fr 1.5fr 100px;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+
+#parent12 > div {
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #696989;
+}
+#parent13 {
+	display: grid;
+	grid-template-columns: 20% 1fr 1fr;
+	width: 600px;
+	padding: 10px;
+	border: 2px solid #696989;
+}
+
+#parent13 > div {
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #696989;
+}
+#parent14 {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	width: 600px;
+	padding: 10px;
+	border: 2px solid #696989;
+}
+
+#parent14 > div {
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #696989;
+}
+#parent15 {
+	display: grid;
+	grid-template-columns: repeat(4, 100px) repeat(3, 2fr);
+	width: 800px; 
+	padding: 10px;
+	border: 2px solid #696989;
+}
+
+#parent15 > div {
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #696989;
+}
+#parent16 {
+	display: grid;
+	grid-template-columns: 200px auto;
+	width: 600px;
+	padding: 10px;
+	border: 2px solid #696989;
+}
+
+#parent16 > div {
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #696989;
+}
+#parent17 {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 200px);
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 100%;
+}
+
+#parent17 > div {
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #696989;
+}
+#parent18 {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+	border: 2px solid #696989;
+	padding: 10px;
+}
+#parent18 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent19 {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 200px);
+	width: 600px; /* 600 / 200 = 3 столбца */
+	padding: 10px;
+	border: 2px solid #696989;
+}
+
+#parent19 > div {
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #696989;
+	text-align: center;
+}
+#parent20 {
+	display: grid;
+	grid-template-columns: 100px 150px 200px;
+	width: fit-content; /* или достаточно ширины, например 500px */
+	padding: 10px;
+	border: 2px solid #696989;
+	gap: 5px; /* опционально, для наглядности */
+}
+
+#parent20 > div {
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #696989;
+	text-align: center;
+}
+#parent21 {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	height: 300px;
+	width: 400px;
+	padding: 10px;
+	border: 2px solid #696989;
+}
+#parent21 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#elem1 {
+	grid-row: 1 / 3; 
+}
+#elem2 {
+	grid-row: 1 / 2;
+}
+#elem3 {
+	grid-row: 2 / 3;
+}
+#parent23 {
+	display: grid;
+	padding: 10px;
+	border: 2px solid #696989;
+	width: 400px;
+	height: 300px;
+}
+#parent23 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#elem5 {
+	grid-column: 1 / 2;
+}
+#elem6 {
+	grid-column: 2 / 3;
+}
+#elem7 {
+	grid-column: 3 / 4;
+}
+#elem8 {
+	grid-column: 1 / 4;
+}
+#parent24 {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	border: 2px solid #696989;
+	padding: 10px;
+	height: 300px;
+	width: 400px;
+}
+#parent24 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#elem9 {
+	grid-row: 1 / 3;
+}
+#elem10 {
+	grid-row: 1 / 2;
+}
+#elem11 {
+	grid-row: 1 / 2;
+}
+#elem13 {
+	grid-row: 2 / 3;
+	grid-column: 2 / 4;
+}
+#parent25 {
+	display: grid;
+	padding: 10px;
+	border: 2px solid #696989;
+	width: 400px;
+	height: 300px;
+}
+#parent25 > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#elem15 {
+	grid-column: 1 / 4;
+}
+#elem16 {
+	grid-column: 2 / 3;
+}
+#elem17 {
+	grid-column: 1 / 2;
+}
+#elem18 {
+	grid-column: 3 / 4;
+}
+#parent26 {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr); 
+	column-gap: 20%; 
+	width: 100%; 
+	padding: 10px;
+	border: 2px solid #696989;
+}
+
+#parent26 > div {
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #696989;
+	text-align: center;
+}
+#parent27 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); 
+	row-gap: 25%; 
+	height: 400px; 
+	padding: 10px;
+	border: 2px solid #696989;
+	width: 100%;
+}
+
+#parent27 > div {
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #696989;
+	text-align: center;
+}
+
+#menu {
+	display: flex;
+}
+#menu a {
+	margin-right: 5px;
+	padding: 10px;
+	font: 15px Arial;
+	text-decoration: none;
+	color: #ffffff;
+	border: 1px solid #003d0a;
+	background-color: rgb(20, 255, 24);
+}
+#menu a:hover, #menu a.active1 {
+	color: rgb(244, 0, 0);
+	border: 1px solid blue;
+	background-color: #F5F6FA;
+}
+
+#menu1 {
+	display: flex;
+}
+#menu1 a {
+	margin-right: 5px;
+	padding: 10px;
+	font: 15px Arial;
+	text-decoration: none;
+	color: #ffffff;
+	border: 1px solid #006912;
+	background-color: rgb(0, 158, 3);
+}
+#menu1 a:hover, #menu1 a.active {
+	color: rgb(255, 255, 255);
+	border: 1px solid rgb(4, 37, 0);
+	background-color: #002a08;
+}
